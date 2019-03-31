@@ -5,12 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HNGinternship5.0</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
   </head>
   <body>
+     <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">User Profile</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">User</a></li>
+          <li><a href="#abt">About Us</a></li> 
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row profile">
+        <div class="col-md-3">
+          <div class="profile-sidebar">
+            <div class="profile-user-pic">
+              <img src="img/cliff.jpg" class="img-responsive img-circle">
+            </div>
+          </div>
+          <div class="profile-user-title">
+            <div class="profile-user-name">
+              <p>Clifford Okoro</p>
+            </div>
+            <div class="profile-user-job">
+              <p>Full-Stack Web Developer</p>
+            </div>
+          </div>
+          <div class="profile-user-buttons">
+            <button class="btn btn-info btn-sm">Facebook</button>
+            <button class="btn btn-warning btn-sm">LinkedIn</button>
+            <button class="btn btn-success btn-sm">Twitter</button>
+            <button class="btn btn-primary btn-sm">Github</button>
+          </div>
+          <div class="profile-user-menu">
+            <ul class="nav">
+              <li class="active"><a href="#"><span class="glyphicon glyphicon-home"> Overview</span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-user"> Account status</span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-ok"> Tasks</span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-flag"> Helps</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-9 profile-content" id="abt">
+          <div>
+            <h2 class="description">About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercita.</p>
+          </div>
+          <div class="row interest">
+            <div class="col-md-6">
+              <div class="reference">
+                <h3>Interest</h3>
+                <ul class="nav">
+                  <li>Bsc Information Technology<small><em><b> NOUN</b></em></small></li>
+                  <li>ND Computer Science<small><em><b> LASPOTECH</b></em></small></li>
+                  <li>Certified Full Wed developer<small><em><b> Alabians Solutions</b></em></small></li>
+                  <li>CCNA <small><em><b> New Horizon</b></em></small></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="reference">
+                <h3>Reference</h3>
+                <ul class="nav">
+                  <li>Bsc Computer Science<small><em><b> UNN</b></em></small></li>
+                  <li>Certified Full Wed developer<small><em><b> Alabians Solutions</b></em></small></li>
+                  <li>CCNA <small><em><b> New Horizon</b></em></small></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
 
 
 

@@ -1,0 +1,117 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  color: #ccc;
+}
+
+.profile {
+  margin: 20px 0px;
+}
+
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+.profile-user-pic {
+  /*
+	float: none;*/
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.profile-user-title {
+  text-align: center;
+  margin-top: 20px;
+}
+.profile-user-name {
+  color: #5a77a1;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.profile-user-job {
+  text-transform: uppercase;
+  color: #5babd1;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+.profile-user-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+  display: inline;
+  margin-top: 10px;
+}
+.btn:last-child {
+  margin-right: 0;
+}
+.profile-user-menu {
+  margin-top: 30px;
+}
+
+.nav ul li {
+  border-bottom: 2px solid #f0f4f7 !important;
+}
+.profile-user-menu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+.profile-user-menu ul li a i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+.profile-user-menu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5babd1;
+  margin-left: -3px;
+  border-left: 2px solid #5babd1;
+  margin-top: 3px;
+}
+li.active a {
+  color: #5babd1;
+  background-color: #f6fafb;
+  border-left: 2px solid #5babd1;
+  margin-left: -3px;
+}
+.profile-content {
+  min-height: 460px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.interest {
+  /*background-color: #ebfafb;*/
+  padding: 20px;
+  margin-top: 10px;
+}
+.description,
+h2,
+h3 {
+  text-transform: uppercase;
+  color: #5a77bb;
+  font-size: 18px;
+  font-weight: 500;
+}
+.reference h3 {
+  text-transform: uppercase;
+  color: #5a77bb;
+  font-size: 18px;
+  font-weight: 500;
+}
